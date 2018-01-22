@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Paul Brabban'
 SITENAME = u'Sheffield ML'
-SITEURL = ''
+#SITEURL = 'https://sheffieldml.org.uk'
 
 PATH = 'content'
 
@@ -19,14 +19,15 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Sheffield Meetups', 'http://sheffieldgeeks.org.uk'),
+         ('Python Sheffield', 'https://twitter.com/pysheff'),
+         ('SheffieldR', 'http://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/'),
+         ('SheffieldML on OpenTechCalendar', 'https://opentechcalendar.co.uk/group/474-sheffieldml'))
 
 # Social widget
 SOCIAL = (('shef_ml', 'https://twitter.com/shef_ml'),
-          ('shefml', 'https://github.com/shefml'),)
+          ('shefml', 'https://github.com/shefml'),
+          ('slack', 'https://sheffield.digital/slack/'))
 
 DEFAULT_PAGINATION = False
 
@@ -42,3 +43,9 @@ MENUITEMS = (
     ('Participate', '/pages/participate.html'),
     ('Sponsors', '/pages/sponsors.html')
 )
+
+THEME='../pelican-themes/plumage'
+
+#GITHUB_URL='https://github.com/Shef_ML'
+GOOGLE_ANALYTICS='UA-112392981-1'
+TWITTER_USERNAME='Shef_ML'
